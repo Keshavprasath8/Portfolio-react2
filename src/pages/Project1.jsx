@@ -47,7 +47,7 @@ function Project() {
   </figure>
   <div className="card-body text-center">
     <h2 className="card-title text-white text-3xl mx-auto">Portfolio</h2>
-    <p className="  font-bold text-slate-950">This site is made by HTML/CSS/javaScript</p>
+    <p className=" pb-2 font-bold text-slate-950">This site is made by HTML/CSS/javaScript</p>
     <div className="card-actions pb-5 justify-center">
     <a style={{backgroundImage: "linear-gradient(to right top, #0022e0, #581adb, #7d10d7, #9805d1, #af00cc)"}} className="btn border-none text-slate-200 hover:text-slate-950 cursor-pointer"  target='blank' href="https://github.com/Keshavprasath8/Portfolio">Github</a>
     <a style={{backgroundImage: "linear-gradient(to right top, #0022e0, #581adb, #7d10d7, #9805d1, #af00cc)"}} className="btn border-none text-slate-200 hover:text-slate-950 cursor-pointer" target='blank' href="https://tourmaline-profiterole-1d57f9.netlify.app">Netlify</a>

@@ -41,7 +41,7 @@ const Contact = () => {
 
         <div className="contact__container place-items-center">
           <form
-            className="contact__form w-full  max-w-lg p-5 rounded-lg text-center  shadow-md"
+            className="contact__form w-full border-1 rounded-2xl  max-w-lg p-5 text-center  shadow-md"
             id="contact-form"
             onSubmit={sendEmail}
           >
