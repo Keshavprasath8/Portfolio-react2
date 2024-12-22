@@ -1,0 +1,7 @@
+#contact{
+background: rgb(68,41,241);
+background: linear-gradient(94deg, rgba(68,41,241,0.6167717086834734) 0%, rgba(121,41,241,0.5411414565826331) 22%, rgba(243,0,255,0.5775560224089635) 55%, rgba(191,30,169,0.4290966386554622) 100%);
+}
+form{
+    background-color: rgba(0, 0, 0, 0.23);
+}
