@@ -28,10 +28,10 @@ function Navbar() {
       {toggleMenu && (
         <div className="z-10 mobile-nav flex justify-end md:hidden">
           <ul className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[0] mt-3 w-40 p-2 shadow">
-            <li><Link to="/" className="hover:bg-gray-400"><HiHome className='mr-1 mt-1' />Home</Link></li>
-            <li><Link to="/about" className="hover:bg-gray-400"><CgProfile className='mr-1 mt-1' />About</Link></li>
-            <li><Link to="/project" className="hover:bg-gray-400"><FaRegListAlt className='mr-1 mt-1'/>Project</Link></li>
-            <li><Link to="/contact" className="hover:bg-gray-400"><MdOutlineContactMail />Contact</Link></li>
+            <li><Link to="/" className= "  hover:bg-gray-400 text-black "><HiHome className='mr-1 mt-1' />Home</Link></li>
+            <li><Link to="/about" className="hover:bg-gray-400 text-black"><CgProfile className='mr-1 mt-1' />About</Link></li>
+            <li><Link to="/project" className="hover:bg-gray-400 text-black"><FaRegListAlt className='mr-1 mt-1'/>Project</Link></li>
+            <li><Link to="/contact" className="hover:bg-gray-400 text-black"><MdOutlineContactMail />Contact</Link></li>
           </ul>
         </div>
       )}

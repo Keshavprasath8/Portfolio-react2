@@ -75,16 +75,16 @@ function Project() {
 {/* Five */}
 <div id='pro' className="bg-base-100 rounded-t-full rounded-b-[5000px] card-compact h-96 w-96 shadow-xl">
   <figure >
-    <a className='' href="https://react-todolist25.netlify.app/" target='blank'><img className=' h-[210px] w-full rounded-t-full'
-      src="https://i1.wp.com/timemanagementninja.com/wp-content/uploads/2013/09/Todo-List-board.jpg?fit=600%2C399&ssl=1"
+    <a className='' href="https://e-commerce26.netlify.app/" target='blank'><img className=' h-[210px] w-full rounded-t-full'
+      src="https://imgs.search.brave.com/A6IQTC4cm4YGqGT8bP2JdQ43MYZzjcdIVdAHYXhSrW0/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzAzLzA1LzQyLzI2/LzM2MF9GXzMwNTQy/MjY5OF9YNGRvamtF/eEpSSkdUb2hQeVl0/bFdBSXRlZUp5Zmdn/Mi5qcGc"
       alt="Shoes" /></a>
   </figure>
   <div className="card-body text-center">
-    <h2 className="card-title text-white text-3xl mx-auto">Todo-List</h2>
+    <h2 className="card-title text-white text-3xl mx-auto">E-Commerce</h2>
     <p className="pb-2 font-bold text-slate-950">This site is made by React</p>
     <div className="card-actions pb-5 justify-center">
-    <a style={{backgroundImage: "linear-gradient(to right top, #0022e0, #581adb, #7d10d7, #9805d1, #af00cc)"}} className="btn border-none text-slate-200 hover:text-slate-950 cursor-pointer"  target='blank' href="https://github.com/Keshavprasath8/React-Todo">Github</a>
-    <a style={{backgroundImage: "linear-gradient(to right top, #0022e0, #581adb, #7d10d7, #9805d1, #af00cc)"}} className="btn border-none text-slate-200 hover:text-slate-950 cursor-pointer" target='blank' href="https://react-todolist25.netlify.app/">Netlify</a>
+    <a style={{backgroundImage: "linear-gradient(to right top, #0022e0, #581adb, #7d10d7, #9805d1, #af00cc)"}} className="btn border-none text-slate-200 hover:text-slate-950 cursor-pointer"  target='blank' href="https://github.com/Keshavprasath8/E-Commerce">Github</a>
+    <a style={{backgroundImage: "linear-gradient(to right top, #0022e0, #581adb, #7d10d7, #9805d1, #af00cc)"}} className="btn border-none text-slate-200 hover:text-slate-950 cursor-pointer" target='blank' href="https://e-commerce26.netlify.app/">Netlify</a>
    
     </div>
   </div>
