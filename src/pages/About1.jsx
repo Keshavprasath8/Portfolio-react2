@@ -33,7 +33,7 @@ const About = () => {
             </ol>
           
           </div>
-         <Link  to ="/contact"><button style={{backgroundImage: "linear-gradient(to right top, #0022e0, #581adb, #7d10d7, #9805d1, #af00cc)"}}  className="btn border-none text-lg text-slate-200 mt-3 hover:text-slate-950 cursor-pointer" >Contact Me</button></Link>
+         <Link  to ="/contact"><button style={{backgroundImage: "linear-gradient(to right top, #0022e0, #581adb, #7d10d7, #9805d1, #af00cc)"}}  className="btn border-none text-lg text-slate-200 mt-3  hover:text-slate-950 cursor-pointer" >Contact Me</button></Link>
         </div>
 
         {/* About Image */}

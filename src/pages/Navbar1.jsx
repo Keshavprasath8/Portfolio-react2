@@ -7,11 +7,12 @@ import { HiHome } from "react-icons/hi2";
 import { CgProfile } from "react-icons/cg";
 import { MdOutlineContactMail } from "react-icons/md";
 import { FaRegListAlt } from "react-icons/fa";
+
 function Navbar() {
   const [toggleMenu, setToggleMenu] = useState(false);
   
   return (
-    <header className="absolute w-full top-0 flex justify-between px-5 py-4">
+    <header className="fixed w-full top-0 flex justify-between px-5 py-4">
       <div>
       <Link to="/"><img src={logo} width="50px" height="50px" alt="Logo" /></Link>
       </div>
@@ -26,7 +27,7 @@ function Navbar() {
       </div>
       
       {toggleMenu && (
-        <div className="z-10 mobile-nav flex justify-end md:hidden">
+        <div className="z-10 mobile-nav px-4  flex justify-end md:hidden">
           <ul className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[0] mt-3 w-40 p-2 shadow">
             <li><Link to="/" className= "  hover:bg-gray-400 text-black "><HiHome className='mr-1 mt-1' />Home</Link></li>
             <li><Link to="/about" className="hover:bg-gray-400 text-black"><CgProfile className='mr-1 mt-1' />About</Link></li>
@@ -36,8 +37,8 @@ function Navbar() {
         </div>
       )}
 
-      <button onClick={() => setToggleMenu(!toggleMenu)} className='block md:hidden'>
-        <Bars3BottomRightIcon className='text-black h-6 w-10px' />
+      <button onClick={() => setToggleMenu(!toggleMenu)} className='block rounded-lg  md:hidden'>
+        <Bars3BottomRightIcon className='text-white h-[35px] w-[40px]' />
       </button>
     </header>
   );

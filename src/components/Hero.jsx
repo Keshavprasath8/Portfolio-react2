@@ -10,7 +10,7 @@ import Text from './Text';
 function Hero({ name, title, description, githubLink, linkedinLink, netlifyLink }) {
   return (
     <>
-    <div className="home flex flex-col h-screen  md:flex-row px-6" id='home'>
+    <div className="home text-white  flex flex-col h-screen  md:flex-row px-6" id='home'>
       <div className=' flex py-20 px-4 flex-col items-center md:flex-row'>
       <div> 
       <div className='py-5 md:w-full flex flex-col '>

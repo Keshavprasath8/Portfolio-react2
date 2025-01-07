@@ -16,12 +16,10 @@ const Contact = () => {
       )
       .then(
         (result) => {
-          setMessageStatus("Message sent successfully!");
-          alert(`${messageStatus}`);
+          setMessageStatus("Message sent successfully!");     
         },
         (error) => {
           setMessageStatus("Failed to send message. Please try again.");
-          alert(`${messageStatus}`);
         }
       );
 
@@ -32,10 +30,10 @@ const Contact = () => {
     <div id="contact" className="h-screen pt-20">
     <section className="contact  section py-">
       <div className="container mx-auto">
-        <h3 className="section__subtitle text-3xl font-bold text-center mb-4">
+        <h3 className="section__subtitle text-white text-3xl font-bold text-center mb-4">
           Get In <span className="text-zinc-950">Touch</span>
         </h3>
-        <h2 className="section__title text-4xl font-bold text-center pb-4">
+        <h2 className="section__title text-white text-4xl font-bold text-center pb-4">
           Contact Me
         </h2>
 
@@ -52,7 +50,7 @@ const Contact = () => {
                 name="user_name"
                 required
                 placeholder="Enter your name"
-                className="contact__input py-2 px-4   rounded-md w-full"
+                className="contact__input py-2 px-4 text-white  rounded-md w-full"
                 id="contact-name"
               />
               <input
@@ -60,17 +58,19 @@ const Contact = () => {
                 name="user_email"
                 required
                 placeholder="Enter your email"
-                className="contact__input py-2 px-4  rounded-md w-full"
+                className="contact__input py-2 px-4 text-white rounded-md w-full"
                 id="contact-email"
               />
             </div>
 
             {/* Message Textarea */}
             <textarea
+              type="text"
+              
               name="user_project"
               required
               placeholder="Enter your message"
-              className="contact__input py-2 px-4 h-52 rounded-md w-full mb-6"
+              className="contact__input text-white py-2 px-4 h-52 rounded-md w-full mb-6"
               id="contact-project"
             ></textarea>
 
